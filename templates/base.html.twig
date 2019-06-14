@@ -3,7 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+        <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+        <title>Album example for Bootstrap</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
